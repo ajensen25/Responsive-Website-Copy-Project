@@ -60,6 +60,11 @@
   cursor: pointer;
 }
 
+.request-button:hover {
+  transition: 0.3s;
+  background-color: rgb(60, 60, 60);
+}
+
 .signin-button {
   border: none;
   background-color: rgb(62, 127, 217);
@@ -67,4 +72,9 @@
   border-radius: 5px;
   padding: 0.4rem 0.8rem;
   cursor: pointer;
+}
+
+.signin-button:hover {
+  transition: 0.3s;
+  background-color: rgb(86, 138, 211);
 }

@@ -1,0 +1,48 @@
+.helpbar {
+  background-color: #dadbf1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.helpbar-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+
+.helpbar-title {
+  font-size: 23px;
+  text-align: center;
+}
+
+.title {
+  font-weight: 400;
+
+}
+
+.searchbar-container {
+  margin-top: 2rem;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.167);
+}
+
+.searchbar {
+  height: 2rem;
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  outline: none;
+}
+
+.rightarrow {
+  position: absolute;
+  right: 0.5rem;
+  height: 2rem;
+}
