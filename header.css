@@ -1,0 +1,70 @@
+.header {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px 15px 0px 0px;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-header {
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.company-name {
+  display: flex;
+  width: fit-content;
+  border-right: 1px solid white;
+  align-items: center;
+}
+
+.logo {
+  height: 20px;
+}
+
+.name {
+  color: white;
+  margin-left: 0.2rem;
+  margin-right: 1rem;
+  font-weight: 500;
+  height: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.help-center {
+  margin-left: 1rem;
+}
+
+.help-center-link:hover {
+  text-decoration: underline;
+}
+
+.right-header {
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.request-button {
+  margin-right: 1rem;
+  border: 1px solid grey;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  border-radius: 5px;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+}
+
+.signin-button {
+  border: none;
+  background-color: rgb(62, 127, 217);
+  color: white;
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
